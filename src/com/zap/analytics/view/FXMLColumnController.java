@@ -92,6 +92,8 @@ public class FXMLColumnController implements Initializable {
 
     public void cellColums() {
         colNome.setCellValueFactory(new PropertyValueFactory("nome"));
+        System.out.println("Teste GIT");
     }
+    
    
 }
